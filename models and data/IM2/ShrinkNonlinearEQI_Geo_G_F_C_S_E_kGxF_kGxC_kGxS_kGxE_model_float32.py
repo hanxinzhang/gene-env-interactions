@@ -18,7 +18,7 @@ NUM_CHAINS = 4
 
 PHE_INDEX = int(sys.argv[1]) - 1
 
-with open('../make phenotype 09242020 DBlair/sample_phe.bpkl3', 'rb') as f:
+with open('../data/sample_phe.bpkl3', 'rb') as f:
     sample_phe = pickle.load(f)
     sample_phe_mat = sample_phe['sample_phe_mat']
     
