@@ -14,7 +14,7 @@ sample_phe_mat.shape
 
 # Out = (404475, 568)
 ```
-Note there are 404,475 unique patients in the data. For each patient, we reported if they ever had a diagnosis record for 568 diseases respectively.
+Note there are 404,475 unique patients in the data. For each patient, we reported if they ever had a diagnosis record for 568 diseases respectively (we only analyzed the 10 most common neuropsychiatric disorders among them).
 
 Similarly, we have the sex and age for all the 404,475 patients:
 
