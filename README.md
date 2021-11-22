@@ -69,7 +69,7 @@ BIAS_SEX_AGE_EQI = np.hstack((BIAS_SEX_AGE,
                               SAMPLE_EQI_1**3.0))
 ```
 
-# Models and MCMC sampling
+## Models and the MCMC sampling
 
 Following a Bayesian procedure, we will specify a generative model first (this is the LM0 model):
 ```python
