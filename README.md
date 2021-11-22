@@ -30,7 +30,7 @@ sex_age_fam21.shape
 ```
 As indicated above, there are 114,955 nuclear families consisting of 2 parents and 1 child (344,865 individuals). Similarly, we have the sex and age for families of 1 parent and 1 child (`sex_age_fam11`) and families of 2 parents and 2 children (`sex_age_fam22`). Families with more than 2 children are negligible in our data. We discarded these large families as they would complicated our computation with minimal gain.
 
-Note the phenotype data matrix `sample_phe_mat` has been sorted by the faimly belonging, so the first 114,955 * 3 = 344,865 rows are for the families of 2 parents and 1 child. Same goes for the next rows.
+Note the phenotype data matrix `sample_phe_mat` has been sorted by the faimly belonging, so the first 114,955 * 3 = 344,865 rows represent the families of 2 parents and 1 child. Same goes for the next rows.
 
 We also have the EQI (environmental quality index) data for these 404,475 patients:
 ```python
