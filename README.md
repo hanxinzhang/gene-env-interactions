@@ -119,7 +119,7 @@ with basic_model:
     y = pm.Bernoulli('y', logit_p=l, observed=OBS_Y)
 ```
 
-And then choose you favorite samplers and run the sampling -- we will use NUTS (initialied by ADVI) as an example:
+And then choose you favorite samplers and run the sampling -- we will use NUTS (initialized by ADVI) as an example:
 ```python
 NUM_CHAINS = 4 # 4 independent MCMC samplings
 
